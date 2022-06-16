@@ -205,6 +205,7 @@ a:visited {
 @media (max-width: 1000px) {
   body {
     flex-direction: column-reverse;
+    flex-direction: wrap;
     width: 100vw;
     height: 100vh;
     padding: 0;
@@ -212,11 +213,11 @@ a:visited {
 
   .sidebar {
     height: 49vh;
-    margin: 0;
+    flex-basis: 49vw;
   }
 
   #map {
     height: 49vh;
-    margin: 0;
+    flex-basis: 49vw;
   }
 }
