@@ -212,11 +212,11 @@ a:visited {
 
   .sidebar {
     flex-basis: 49vh;
-    height: 60vh;
+    height: 49vh;
   }
 
   #map {
     flex-basis: 49vh;
-    height: 30vh;
+    height: 49vh;
   }
 }
