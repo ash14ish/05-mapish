@@ -216,9 +216,10 @@ a:visited {
     padding: 0;
   }
 
-  /* .sidebar {
-  height: auto;
-  } */
+  .sidebar {
+    height: 50rem;
+    border-radius: 2rem;
+  }
 
   #map {
     flex-basis: 53vh;
