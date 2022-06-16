@@ -217,10 +217,10 @@ a:visited {
   }
 
   .sidebar {
-    height: 49vh;
+    height: 30%;
   }
 
   #map {
-    height: 49vh;
+    height: 60%;
   }
 }
