@@ -217,7 +217,7 @@ a:visited {
   }
 
   .sidebar {
-    height: 30%;
+    height: auto;
   }
 
   #map {
