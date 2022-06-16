@@ -216,11 +216,11 @@ a:visited {
     padding: 0;
   }
 
-  .sidebar {
-    height: auto;
-  }
+  /* .sidebar {
+  height: auto;
+  } */
 
   #map {
-    height: 60%;
+    flex-basis: 70vh;
   }
 }
