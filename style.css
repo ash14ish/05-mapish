@@ -104,6 +104,11 @@ a:visited {
   grid-column: 1 / -1;
 }
 
+.workout__details {
+  display: flex;
+  align-items: baseline;
+}
+
 @media (max-width: 580px) {
   .sidebar {
     padding: 2rem;
@@ -114,19 +119,22 @@ a:visited {
     height: 4rem;
   }
 
+  .workout__title {
+    font-size: 1.5rem;
+  }
+
   .workout {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 1.5rem 2.25rem;
+    gap: 0;
     margin-bottom: 1.3rem;
     margin-right: 0.2rem;
   }
 
-  .workout__title {
-    font-size: 1.5rem;
+  .workout__details {
+    align-content: space-around;
   }
-}
-
-.workout__details {
-  display: flex;
-  align-items: baseline;
 }
 
 .workout__icon {

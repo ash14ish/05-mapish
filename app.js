@@ -105,7 +105,7 @@ class App {
     }).addTo(this.#map);
 
     this.#map.on("click", this._showForm.bind(this));
-    this.#workouts.forEach((curr) => this._renderWorkoutMarker(curr));
+    this.#workouts.forEach(curr => this._renderWorkoutMarker(curr));
   }
 
   _showForm(mapE) {
@@ -135,8 +135,8 @@ class App {
     let workout;
 
     const validInputs = (...inputArr) =>
-      inputArr.every((curr) => Number.isFinite(curr));
-    const allPositives = (...inputArr) => inputArr.every((curr) => curr > 0);
+      inputArr.every(curr => Number.isFinite(curr));
+    const allPositives = (...inputArr) => inputArr.every(curr => curr > 0);
 
     e.preventDefault();
 
@@ -236,7 +236,7 @@ class App {
       <span class="workout__unit">km</span>
     </div>
     <div class="workout__details">
-      <span class="workout__icon">⏱</span>
+      <span class="workout__icon ">⏱</span>
       <span class="workout__value">${wkot.duration}</span>
       <span class="workout__unit">min</span>
     </div>`;
@@ -247,7 +247,7 @@ class App {
       <span class="workout__value">${wkot.pace.toFixed(1)}</span>
       <span class="workout__unit">min/km</span>
     </div>
-    <div class="workout__details">
+    <div class="workout__details grid-right">
       <span class="workout__icon">🦶🏼</span>
       <span class="workout__value">${wkot.cadence}</span>
       <span class="workout__unit">spm</span>
@@ -275,7 +275,7 @@ class App {
   _mapMove(e) {
     const movEl = e.target.closest(".workout");
     if (!movEl) return;
-    const workout = this.#workouts.find((curr) => curr.id === movEl.dataset.id);
+    const workout = this.#workouts.find(curr => curr.id === movEl.dataset.id);
     this.#map.setView(workout.coords, this.#mapZoom, {
       animate: "1",
       pane: {
@@ -297,7 +297,7 @@ class App {
     this.#workouts = locStoObj;
     // console.log(this.#workouts);
 
-    this.#workouts.forEach((curr) => {
+    this.#workouts.forEach(curr => {
       this._renderWorkout(curr);
       // this._renderWorkoutMarker(curr); // wont work like this
     });
