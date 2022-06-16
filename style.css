@@ -22,11 +22,6 @@ html {
 }
 
 body {
-  margin: 0;
-  padding: 0;
-}
-
-.map-container {
   font-family: "Manrope", sans-serif;
   color: var(--color-light--2);
   font-weight: 400;
@@ -35,6 +30,9 @@ body {
   /* overscroll-behavior-y: none; */
   background-color: #fff;
   padding: 1rem;
+}
+
+.map-container {
   display: flex;
 }
 
