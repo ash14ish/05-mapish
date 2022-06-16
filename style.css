@@ -206,17 +206,15 @@ a:visited {
   body {
     flex-direction: column-reverse;
     width: 98vw;
-    margin: 0 auto;
+    margin: 0 0;
     height: 96vh;
   }
 
   .sidebar {
-    flex-basis: 49vh;
     height: 49vh;
   }
 
   #map {
-    flex-basis: 49vh;
     height: 49vh;
   }
 }
