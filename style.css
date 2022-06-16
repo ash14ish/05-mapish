@@ -20,7 +20,7 @@ html {
   box-sizing: border-box;
 }
 
-body {
+.map-container {
   font-family: "Manrope", sans-serif;
   color: var(--color-light--2);
   font-weight: 400;
@@ -203,9 +203,8 @@ a:visited {
 }
 
 @media (max-width: 1000px) {
-  body {
+  .map-container {
     flex-direction: column-reverse;
-    flex-direction: wrap;
     width: 100vw;
     height: 100vh;
     padding: 0;
@@ -213,11 +212,9 @@ a:visited {
 
   .sidebar {
     height: 49vh;
-    flex-basis: 49vw;
   }
 
   #map {
     height: 49vh;
-    flex-basis: 49vw;
   }
 }
