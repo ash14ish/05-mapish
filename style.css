@@ -210,7 +210,8 @@ a:visited {
   }
 
   .map-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    height: 100%;
     margin: 0;
     padding: 0;
   }
