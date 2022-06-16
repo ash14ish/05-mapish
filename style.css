@@ -109,34 +109,6 @@ a:visited {
   align-items: baseline;
 }
 
-@media (max-width: 580px) {
-  .sidebar {
-    padding: 2rem;
-  }
-
-  .logo {
-    margin-bottom: 3rem;
-    height: 4rem;
-  }
-
-  .workout__title {
-    font-size: 1.5rem;
-  }
-
-  .workout {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    padding: 1.5rem 2.25rem;
-    grid-gap: 0 1rem;
-    margin-bottom: 1.3rem;
-    margin-right: 0.2rem;
-  }
-
-  .workout__details {
-    align-content: space-around;
-  }
-}
-
 .workout__icon {
   font-size: 1.8rem;
   margin-right: 0.2rem;
@@ -163,7 +135,6 @@ a:visited {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0.5rem 2.5rem;
-
   /* Match height and activity boxes */
   height: 9.25rem;
   transition: all 0.5s, transform 1ms;
@@ -268,5 +239,43 @@ a:visited {
 
   #map {
     flex-basis: 53vh;
+  }
+}
+
+@media (max-width: 580px) {
+  .sidebar {
+    padding: 2rem;
+  }
+
+  .logo {
+    margin-bottom: 3rem;
+    height: 4rem;
+  }
+
+  .workout__title {
+    font-size: 1.5rem;
+  }
+
+  .workout {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 1.5rem 2.25rem;
+    grid-gap: 0 1rem;
+    margin-bottom: 1.3rem;
+    margin-right: 0.2rem;
+  }
+
+  .workout__details {
+    align-content: space-around;
+  }
+
+  .form {
+    padding: 1.5rem 2rem;
+    width: 70vw;
+    margin: auto;
+    margin-bottom: 1.3rem;
+    grid-template-columns: 1fr;
+    height: 15rem;
+    transition: all 0.5s, transform 1ms;
   }
 }
