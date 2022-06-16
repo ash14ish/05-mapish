@@ -205,17 +205,17 @@ a:visited {
 @media (max-width: 1000px) {
   body {
     flex-direction: column;
-    width: 100vw;
+    width: 96vw;
     height: 98vh;
   }
 
   .sidebar {
-    flex-basis: 50vh;
+    flex-basis: 38vh;
     height: 60vh;
   }
 
   #map {
-    flex-basis: 70vw;
+    flex-basis: 58vh;
     height: 30vh;
   }
 }
