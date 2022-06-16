@@ -82,8 +82,9 @@ a:visited {
 .workout {
   background-color: var(--color-dark--2);
   border-radius: 5px;
-  padding: 1.5rem 2.25rem;
+  padding: 1.5rem 2.5rem;
   margin-bottom: 1.75rem;
+  margin-right: 0.4rem;
   cursor: pointer;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -129,13 +130,16 @@ a:visited {
 
 .form {
   background-color: var(--color-dark--2);
+  border: 1.2px solid var(--color-brand--2);
   border-radius: 5px;
   padding: 1.5rem 2.75rem;
-  margin-bottom: 1.75rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0.5rem 2.5rem;
+
   /* Match height and activity boxes */
+  width: 95%;
+  margin: 0 auto 1.75rem auto;
   height: 9.25rem;
   transition: all 0.5s, transform 1ms;
 }
@@ -277,5 +281,21 @@ a:visited {
     grid-template-columns: 1fr;
     height: 15rem;
     transition: all 0.5s, transform 1ms;
+  }
+}
+
+@media (max-width: 340px) {
+  .form input,
+  .form select {
+    font-size: 1.06rem;
+  }
+
+  .form {
+    height: 12rem;
+    padding: 0.6rem 1.3rem;
+  }
+
+  .form label {
+    font-size: 1.3rem;
   }
 }
