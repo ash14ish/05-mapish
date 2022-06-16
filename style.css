@@ -205,9 +205,9 @@ a:visited {
 @media (max-width: 1000px) {
   body {
     flex-direction: column-reverse;
-    width: 98vw;
-    margin: 0 0;
-    height: 96vh;
+    width: 100vw;
+    margin: 0;
+    height: 100vh;
   }
 
   .sidebar {
