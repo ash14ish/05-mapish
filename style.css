@@ -204,7 +204,7 @@ a:visited {
 
 @media (max-width: 1000px) {
   body {
-    flex-direction: column-reverse;
+    flex-direction: column;
     width: 100vw;
     height: 98vh;
   }
