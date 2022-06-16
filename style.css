@@ -73,6 +73,17 @@ a:visited {
   margin-bottom: 4rem;
 }
 
+@media (max-width: 580px) {
+  .sidebar {
+    padding: 2rem;
+  }
+
+  .logo {
+    margin-bottom: 2.2rem;
+    height: 4rem;
+  }
+}
+
 .workouts {
   list-style: none;
   height: 77vh;
