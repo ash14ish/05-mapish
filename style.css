@@ -203,24 +203,20 @@ a:visited {
 }
 
 @media (max-width: 1000px) {
-  html {
-    margin: 0;
-    padding: 0;
-  }
-
   body {
     flex-direction: column-reverse;
     width: 100vw;
-    margin: 0;
     height: 100vh;
     padding: 0;
   }
 
   .sidebar {
     height: 49vh;
+    margin: 0;
   }
 
   #map {
     height: 49vh;
+    margin: 0;
   }
 }
