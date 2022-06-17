@@ -50,6 +50,8 @@ body {
 .map-container {
   display: flex;
   height: 96vh;
+  width: 99vw;
+  margin: auto;
 }
 
 /* GENERAL */
@@ -60,7 +62,7 @@ a:visited {
 
 /* SIDEBAR */
 .sidebar {
-  flex-basis: 30vw;
+  flex-basis: 35vw;
   background-color: var(--color-dark--1);
   padding: 3rem 5rem 4rem 5rem;
   display: flex;

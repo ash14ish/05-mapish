@@ -105,12 +105,12 @@ class App {
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(this.#map);
 
-    this.#map.on("click", this._showForm.bind(this));
+    this.#map.on("click", this._toggleForm.bind(this));
     this.#workouts.forEach(curr => this._renderWorkoutMarker(curr));
   }
 
-  _showForm(mapE) {
-    form.classList.remove("hidden");
+  _toggleForm(mapE) {
+    form.classList.toggle("hidden");
     inputDistance.focus();
     this.#mapEvent = mapE;
   }
@@ -202,8 +202,8 @@ class App {
     let ruIcon = {
       iconUrl: `running.svg`,
       iconSize: [65, 45],
-      iconAnchor: [27, 55],
-      popupAnchor: [16, -52],
+      iconAnchor: [35, 25],
+      popupAnchor: [8, -20],
     };
 
     L.marker(wrkot.coords, {
