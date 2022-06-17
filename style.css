@@ -245,9 +245,9 @@ a:visited {
     border-radius: 1.1rem 1.1rem 0 0;
   }
 
-  #map {
-    flex-basis: 50vh;
-  }
+  /* #map {
+    flex-basis: 55vh;
+  } */
 }
 
 @media (max-width: 580px) {
