@@ -237,7 +237,8 @@ a:visited {
   }
 
   .sidebar {
-    height: 40rem;
+    min-height: 23rem;
+    max-height: 40rem;
     border-radius: 1.1rem 1.1rem 0 0;
   }
 
