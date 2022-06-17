@@ -195,8 +195,8 @@ class App {
     let cyIcon = {
       iconUrl: `cycling.svg`,
       iconSize: [55, 35],
-      iconAnchor: [39, 77],
-      popupAnchor: [-3, -76],
+      iconAnchor: [30, 35],
+      popupAnchor: [5, -36],
     };
 
     let ruIcon = {
