@@ -305,7 +305,7 @@ class App {
   }
 
   reset() {
-    localStorage.clear("workouts");
+    localStorage.removeItem("workouts");
     window.location.reload();
   }
 }
