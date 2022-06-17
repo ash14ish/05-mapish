@@ -197,14 +197,14 @@ class App {
 
   _renderWorkoutMarker(wrkot) {
     let cyIcon = {
-      iconUrl: `cycling.svg`,
+      iconUrl: `./assets/cycling.svg`,
       iconSize: [55, 35],
       iconAnchor: [30, 35],
       popupAnchor: [5, -36],
     };
 
     let ruIcon = {
-      iconUrl: `running.svg`,
+      iconUrl: `./assets/running.svg`,
       iconSize: [65, 45],
       iconAnchor: [35, 25],
       popupAnchor: [8, -20],
