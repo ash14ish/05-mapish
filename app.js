@@ -111,6 +111,10 @@ class App {
 
   _toggleForm(mapE) {
     form.classList.toggle("hidden");
+    if (inputType.value === "cycling") {
+      inputType.value = "running";
+      this._toggleElevationField();
+    }
     inputDistance.focus();
     this.#mapEvent = mapE;
   }
