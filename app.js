@@ -312,4 +312,4 @@ class App {
 
 let app = new App();
 
-// app.reset();
+app.reset();
