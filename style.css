@@ -248,6 +248,10 @@ a:visited {
   #map {
     flex-basis: 55vh;
   }
+
+  .workouts {
+    height: 100rem;
+  }
 }
 
 @media (max-width: 580px) {
