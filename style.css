@@ -234,7 +234,8 @@ a:visited {
   .map-container {
     flex-direction: column-reverse;
     height: 100%;
-    margin: 0;
+    width: 96vw;
+    margin: 0 auto;
     padding: 0;
   }
 
