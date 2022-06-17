@@ -70,6 +70,7 @@ class App {
   #mapEvent;
   #workouts = [];
   #mapZoom = 13;
+
   constructor() {
     this._getPosition();
 
