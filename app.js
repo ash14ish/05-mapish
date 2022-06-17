@@ -305,11 +305,11 @@ class App {
   }
 
   reset() {
-    localStorage.removeItem("workouts");
-    location.reload();
+    localStorage.clear("workouts");
+    window.location.reload();
   }
 }
 
 let app = new App();
 
-app.reset();
+// app.reset();
