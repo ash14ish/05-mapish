@@ -241,12 +241,12 @@ a:visited {
   }
 
   .sidebar {
-    min-height: 35rem;
+    min-height: 45rem;
     border-radius: 1.1rem 1.1rem 0 0;
   }
 
   #map {
-    flex-basis: 60vh;
+    flex-basis: 70vh;
   }
 }
 
