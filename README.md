@@ -11,8 +11,8 @@ _A website where you can render your workouts (running or cycling) on map. You c
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 - [Leaflet](https://leafletjs.com/)
-- [React.js]()
 
 ## Implementation
 
